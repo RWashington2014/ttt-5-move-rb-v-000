@@ -17,9 +17,7 @@ end
 
 def move(array, index, character = "X")
 
-  index = input_to_index(index)
-
-  puts index
+  #index = input_to_index(index)
 
   array[index] = character
 
