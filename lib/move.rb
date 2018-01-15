@@ -21,6 +21,6 @@ def move(array, index, character = "X")
 
   array[index] = character
 
-  #display_board(index)
+  display_board(index)
 
 end
