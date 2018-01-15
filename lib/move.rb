@@ -10,7 +10,8 @@ end
 
 def input_to_index(input)
 
-  input.to_i
+  position = input.to_i
 
+  position - 1
 
 end
