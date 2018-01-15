@@ -11,8 +11,9 @@ end
 def input_to_index(input)
 
   position = input.to_i
-
   position - 1
+
+  return position
 
 end
 
