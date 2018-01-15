@@ -18,8 +18,8 @@ end
 
 def move(board, index, character = "X")
 
+  input_to_index(index)
+
   board[index]
-
-
 
 end
