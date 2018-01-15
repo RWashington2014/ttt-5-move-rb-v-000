@@ -19,7 +19,9 @@ def move(array, index, character = "X")
 
   index = input_to_index(index)
 
-  #array[index] = character
+  puts index
+
+  array[index] = character
 
   #display_board(index)
 
